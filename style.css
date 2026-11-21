@@ -1111,6 +1111,53 @@ ol, ul {
   text-decoration: underline;
 }
 
+/* Day 2 */
+.venue-day2 {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(184,151,90,0.2);
+}
+
+.venue-day2__heading {
+  font-family: var(--ff-sans);
+  font-size: 0.6rem;
+  font-weight: 500;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 14px;
+}
+
+.venue-day2__details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.venue-day2__details p {
+  display: flex;
+  gap: 10px;
+  font-family: var(--ff-serif);
+  font-size: 0.95rem;
+  color: var(--text-mid);
+  line-height: 1.5;
+}
+
+.venue-day2__key {
+  font-family: var(--ff-sans);
+  font-size: 0.6rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-light);
+  min-width: 68px;
+  padding-top: 3px;
+  flex-shrink: 0;
+}
+
+.venue-day2__val {
+  color: var(--text-dark);
+}
+
 /* Map modal */
 .map-modal {
   position: fixed;
