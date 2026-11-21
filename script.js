@@ -119,7 +119,7 @@ function initCountdown() {
     const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((diff % (1000 * 60)) / 1000);
 
-    setNumber(daysEl,    String(days).padStart(3, '0'));
+    setNumber(daysEl,    String(days).padStart(2, '0'));
     setNumber(hoursEl,   String(hours).padStart(2, '0'));
     setNumber(minutesEl, String(minutes).padStart(2, '0'));
     setNumber(secondsEl, String(seconds).padStart(2, '0'));
