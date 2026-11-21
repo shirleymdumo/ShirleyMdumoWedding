@@ -14,7 +14,7 @@
    CONFIGURATION — Edit these values
    ---------------------------------------------------------------- */
 const CONFIG = {
-  weddingDate: new Date('2027-02-20T00:00:00'),   // Wedding date (do not change names/date)
+  weddingDate: new Date('2027-02-20T09:00:00'),   // Wedding date — ceremony starts 09:00 AM
   venueAddress: '[Venue Address, City, Province]',  // EDITABLE: Replace with actual address
   registryUrl: '#',                                 // EDITABLE: Replace with registry URL
 };
